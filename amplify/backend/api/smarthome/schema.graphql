@@ -1,5 +1,5 @@
-type Todo @model {
+type Device @model {
   id: ID!
-  name: String!
-  description: String
+  title: String!
+  pinNo: Int!
 }
